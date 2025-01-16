@@ -39,3 +39,26 @@ nosetests.xml
 
 #VS Code
 .vscode
+
+# Clacky Configuration
+.1024*
+!.1024
+.breakpoints
+
+# Django
+__pycache__/
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+static/admin/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Pipenv
+Pipfile.lock
